@@ -18,9 +18,9 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/mw/specialerror"
-	"github.com/openimsdk/tools/xtls"
+	"github.com/yeqingyun/tools/errs"
+	"github.com/yeqingyun/tools/mw/specialerror"
+	"github.com/yeqingyun/tools/xtls"
 	"github.com/redis/go-redis/v9"
 )
 

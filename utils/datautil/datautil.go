@@ -22,9 +22,9 @@ import (
 
 	"github.com/jinzhu/copier"
 
-	"github.com/openimsdk/tools/db/pagination"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/jsonutil"
+	"github.com/yeqingyun/tools/db/pagination"
+	"github.com/yeqingyun/tools/errs"
+	"github.com/yeqingyun/tools/utils/jsonutil"
 )
 
 // SliceSubFuncs returns elements in slice a that are not present in slice b (a - b) and remove duplicates.

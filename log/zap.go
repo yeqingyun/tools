@@ -3,19 +3,19 @@ package log
 import (
 	"context"
 	"fmt"
-	"github.com/openimsdk/tools/errs"
+	"github.com/yeqingyun/tools/errs"
 	"os"
 	"path/filepath"
 	"time"
 
-	rotatelogs "github.com/openimsdk/tools/log/file-rotatelogs"
-	"github.com/openimsdk/tools/utils/stringutil"
+	rotatelogs "github.com/yeqingyun/tools/log/file-rotatelogs"
+	"github.com/yeqingyun/tools/utils/stringutil"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
 	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/mcontext"
+	"github.com/yeqingyun/tools/mcontext"
 )
 
 var (

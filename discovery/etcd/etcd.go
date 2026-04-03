@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/yeqingyun/tools/errs"
+	"github.com/yeqingyun/tools/log"
+	"github.com/yeqingyun/tools/utils/datautil"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/naming/endpoints"
 	"go.etcd.io/etcd/client/v3/naming/resolver"
